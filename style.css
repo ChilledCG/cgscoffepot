@@ -1,0 +1,102 @@
+* {  
+    font-family: Arial; 
+}
+
+/* THIS '*' WILL CHANGE EVERYTHING ON THE PAGE */
+
+body {
+    text-align: center;
+    background-color: rgb(155, 6, 6);
+}
+
+#navbar {
+    background-color: beige;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#navbar a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+#navbar a:hover {
+    color: blue;
+}
+
+h1 {
+    color: blue;
+    font-size: 100px;
+    border-style: double;
+    border-radius: 80px;
+}
+
+img {
+    width: 60%;
+}
+
+/* 
+THIS CHANGES FONT SIZE AND COLOUR */
+
+p {color: black;
+font-size: 20px;
+} 
+
+.green-paragraph {
+    color:blanchedalmond;
+    font-size: 60px;
+}
+.red-paragraph {
+    color: white;
+    font-size: 40px;
+}
+.bold {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+.drinks-container {
+    /* border: black 5px solid; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 280px;
+}
+
+
+
+.drink-img-container {
+    /* border: 2px white solid; */
+    width: 30%;
+}
+
+
+
+#drinksimg {
+    width: 100%;
+}
+
+
+
+.pastries-container {
+    /* border: black 5px solid; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 280px;
+}
+
+
+
+.pastries-img-container {
+width: 30%;
+}
+
+#pastriesimg {
+    width: 100%;
+}
